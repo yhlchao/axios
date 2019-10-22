@@ -34,6 +34,7 @@
   "devDependencies": {
     "bundlesize": "^0.17.0",
     "coveralls": "^3.0.0",
+    "cz-conventional-changelog": "^3.0.2",
     "grunt": "^1.0.2",
     "grunt-banner": "^0.6.0",
     "grunt-cli": "^1.2.0",
@@ -79,5 +80,10 @@
       "path": "./dist/axios.min.js",
       "threshold": "5kB"
     }
-  ]
+  ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
